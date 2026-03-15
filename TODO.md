@@ -1,0 +1,1 @@
+- image moves on wezterm second opening
