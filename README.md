@@ -4,6 +4,16 @@ A Neovim plugin for browsing and applying [base16](https://github.com/tinted-the
 
 Uses the optional [`quicktheme`](https://github.com/blackhat-hemsworth/quickthemes) CLI to generate base16 palettes from images on-demand.
 
+## Demo
+
+**Image picker** — browse images and generate base16 palettes instantly with the `quicktheme` CLI:
+
+![quicktheme image picker demo](quicktheme-demo.gif)
+
+**YAML picker** — browse and preview base16 themes directly:
+
+![quicktheme YAML picker demo](quicktheme-yaml.gif)
+
 ## Features
 
 - Browse images and auto-generate base16 palettes via the `quicktheme` CLI
@@ -116,11 +126,11 @@ require("quicktheme").setup({
 
 ## Commands
 
-| Command | Description |
-|---------|-------------|
-| `:Quicktheme` | Browse all themes |
+| Command            | Description              |
+| ------------------ | ------------------------ |
+| `:Quicktheme`      | Browse all themes        |
 | `:QuickthemeImage` | Browse image themes only |
-| `:QuickthemeYaml` | Browse YAML themes only |
+| `:QuickthemeYaml`  | Browse YAML themes only  |
 
 No default keymaps are set. Bind your own:
 
